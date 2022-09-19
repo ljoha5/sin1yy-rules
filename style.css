@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Nabla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
 html, body{
+	scroll-behavior: smooth;
+	overflow-x: hidden;
 	padding: 0;
 	margin: 0;
 	color: white;
@@ -21,51 +23,17 @@ html, body{
 	font-family: 'Amatic SC', cursive;
 	text-align: center;
 }
-@media (max-width: 530px){
-	.rules{
-	font-family: 'Nabla', cursive;
-	font-size: 8em;
-	padding: 0;
-	margin: 0;
-	text-align: center;
-}
-.rule{
-	font-size: 2.9em;
-	text-shadow: 0px 7px 10px;
-	font-family: 'Amatic SC', cursive;
-	text-align: center;
-}
-}
-@media (max-width: 440px){
-	.rules{
-	font-family: 'Nabla', cursive;
-	font-size: 6em;
-	padding: 0;
-	margin: 0;
-	text-align: center;
-}
+
+.line, .line1, .line2, .line3,{
+	opacity: 0;
+} 
 .rule{
 	font-size: 2.5em;
 	text-shadow: 0px 7px 10px;
 	font-family: 'Amatic SC', cursive;
 	text-align: center;
 }
-}
-@media (max-width: 350px){
-	.rules{
-	font-family: 'Nabla', cursive;
-	font-size: 5em;
-	padding: 0;
-	margin: 0;
-	text-align: center;
-}
-.rule{
-	font-size: 2em;
-	text-shadow: 0px 7px 10px;
-	font-family: 'Amatic SC', cursive;
-	text-align: center;
-}
-}
+
 .torules{
 	color: #ffee89;
 	font-family: 'Audiowide', cursive;
@@ -237,6 +205,74 @@ html, body{
 	top: -5px;
 	height: 260px;
 	border-radius: 3px;
+}
+
+
+
+
+
+@media (max-width: 950px){
+	.liner, .line2r, .line3r, .line4r{
+	opacity: 0;
+} 
+}
+@media (max-width: 800px){
+	.sin{
+		font-size: 10em;
+	}
+}
+@media (max-width: 530px){
+	.sin{
+		font-size: 6em;
+		margin-top: 100px;
+	}
+	.rules{
+	font-family: 'Nabla', cursive;
+	font-size: 8em;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+.rule{
+	font-size: 2.9em;
+	text-shadow: 0px 7px 10px;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+}
+}
+@media (max-width: 440px){
+	.footer{
+		display: table-column;
+		margin-bottom: 100px;
+	}
+	.torules{
+		margin-bottom: 20px;
+	}
+	.rules{
+	font-family: 'Nabla', cursive;
+	font-size: 6em;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+}
+@media (max-width: 350px){
+	.rules{
+	font-family: 'Nabla', cursive;
+	font-size: 5em;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+.line, .line1, .line2, .line3,{
+	opacity: 0;
+} 
+.rule{
+	font-size: 2em;
+	text-shadow: 0px 7px 10px;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+}
 }
 
 
