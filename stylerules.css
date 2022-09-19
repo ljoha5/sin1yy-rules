@@ -241,6 +241,9 @@ html, body{
 }
 }
 @media (max-width: 440px){
+	.rule{
+		font-size: 2em;	
+	}
 	.rules{
 	font-family: 'Nabla', cursive;
 	font-size: 6em;
