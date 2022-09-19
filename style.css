@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bungee+Spice&family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+html, body{
+	padding: 0;
+	margin: 0;
+	color: white;
+	background-color: #181818;
+}
+.rules{
+	font-family: 'Nabla', cursive;
+	font-size: 10em;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+.rule{
+	font-size: 3em;
+	text-shadow: 0px 7px 10px;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+}
+@media (max-width: 530px){
+	.rules{
+	font-family: 'Nabla', cursive;
+	font-size: 8em;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+.rule{
+	font-size: 2.9em;
+	text-shadow: 0px 7px 10px;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+}
+}
+@media (max-width: 440px){
+	.rules{
+	font-family: 'Nabla', cursive;
+	font-size: 6em;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+.rule{
+	font-size: 2.5em;
+	text-shadow: 0px 7px 10px;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+}
+}
+@media (max-width: 350px){
+	.rules{
+	font-family: 'Nabla', cursive;
+	font-size: 5em;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+.rule{
+	font-size: 2em;
+	text-shadow: 0px 7px 10px;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+}
+}
